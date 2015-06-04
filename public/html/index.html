@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Collaborative drawing</title>
+  </head>
+  <body>
+    <canvas id="drawing" width="600" height="600"></canvas>
+    <form>
+      <input type="color" name="color" id="color">
+      <select id="linewidth">
+	<option value="1">1</option>	
+	<option value="2">2</option>
+	<option value="3">3</option>
+      </select>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/js/draw.js"></script>
+    <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+  </body>
+</html>

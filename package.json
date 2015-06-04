@@ -1,0 +1,12 @@
+{
+    "name": "websocketdraw",
+    "version": "1.0.0",
+    "description": "multi user drawing app",
+    "main": "index.js",
+    "scripts": {
+	"start": "index.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Juho Sepänmaa",
+    "license": "MIT"
+}
